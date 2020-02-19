@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                     double angka1 = Double.parseDouble(angka_pertama.getText().toString());
                     double angka2 = Double.parseDouble(angka_kedua.getText().toString());
                     double result = angka1 + angka2;
-                    hasil.setText(Double.toHexString(result));
+                    hasil.setText(Double.toString(result));
                 }
                 else {
                     Toast toast = Toast.makeText(MainActivity.this, "Mohon masukkan Angka pertama dan kedua", Toast.LENGTH_LONG);
@@ -56,7 +56,7 @@ public class MainActivity extends AppCompatActivity {
                     double angka1 = Double.parseDouble(angka_pertama.getText().toString());
                     double angka2 = Double.parseDouble(angka_kedua.getText().toString());
                     double result = angka1 - angka2;
-                    hasil.setText(Double.toHexString(result));
+                    hasil.setText(Double.toString(result));
                 }
                 else {
                     Toast toast = Toast.makeText(MainActivity.this, "Mohon masukkan Angka pertama dan kedua", Toast.LENGTH_LONG);
@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
                     double angka1 = Double.parseDouble(angka_pertama.getText().toString());
                     double angka2 = Double.parseDouble(angka_kedua.getText().toString());
                     double result = angka1 * angka2;
-                    hasil.setText(Double.toHexString(result));
+                    hasil.setText(Double.toString(result));
                 }
                 else {
                     Toast toast = Toast.makeText(MainActivity.this, "Mohon masukkan Angka pertama dan kedua", Toast.LENGTH_LONG);
@@ -92,7 +92,7 @@ public class MainActivity extends AppCompatActivity {
                     double angka1 = Double.parseDouble(angka_pertama.getText().toString());
                     double angka2 = Double.parseDouble(angka_kedua.getText().toString());
                     double result = angka1 / angka2;
-                    hasil.setText(Double.toHexString(result));
+                    hasil.setText(Double.toString(result));
                 }
                 else {
                     Toast toast = Toast.makeText(MainActivity.this, "Mohon masukkan Angka pertama dan kedua", Toast.LENGTH_LONG);
